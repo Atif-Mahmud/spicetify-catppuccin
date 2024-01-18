@@ -17,7 +17,7 @@
   // Create our own section matching spotifys style and structure
   const Section = Spicetify.React.memo(() => {
     const colorScheme = Spicetify.Config.color_scheme || "frappe";
-    const initialValue = localStorage.getItem('catppuccin-accentColor') ?? 'none';
+    const initialValue = localStorage.getItem('catppuccin-accentColor') ?? 'lavender';
     const [selectedValue, setSelectedValue] = Spicetify.React.useState(initialValue);
 
     Spicetify.React.useEffect(() => {
